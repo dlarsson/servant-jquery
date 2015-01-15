@@ -65,7 +65,6 @@ makeLenses ''Url
 makeLenses ''AjaxReq
 
 isCapture :: Segment -> Bool
-isCapture :: Segment -> Bool
 isCapture (Segment (Cap _) _) = True
 isCapture                  _  = False
 
